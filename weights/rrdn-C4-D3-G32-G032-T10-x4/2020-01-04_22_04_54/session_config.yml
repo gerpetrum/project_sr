@@ -1,0 +1,28 @@
+discriminator:
+  name: srgan-large
+  weights_discriminator: null
+feature_extractor:
+  layers:
+  - 5
+  - 9
+  name: vgg19
+generator:
+  name: rrdn
+  parameters:
+    C: 4
+    D: 3
+    G: 32
+    G0: 32
+    T: 10
+    x: 4
+  weights_generator: null
+training_parameters:
+  batch_size: 8
+  crop_height: 400
+  crop_weidth: 400
+  epoch_size: 100
+  epochs: 100
+  initial_scale: 2020-01-04_22_04_54
+  lr_patch_size: 100
+  step_save_model: 10
+  steps_per_epoch: 100

@@ -1,0 +1,4 @@
+- ``ISR/models`` - содержит модели: `VGG19, RDN, RRDN, DiscriminatorSRGAN`.
+- ``ISR/predict`` - содержит объект для инференса объекта.
+- ``ISR/train`` - train loop.
+- ``ISR/utils`` - содержит объект dataset, логер, методы метрик и функции ошибок.
